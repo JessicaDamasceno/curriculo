@@ -1,0 +1,219 @@
+:root{
+    --branco: #FFF;
+    --cinza-escuro: #3a3838;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;  
+    --background-left: #5F9F5F;
+    --background-left2:#498d49;
+    --bacground-right:	#BC9FC5;
+    --background-subtitulo: #CCCCCC;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --opensens: 'Open Sans', sans-serif;
+    --ptSerif: 'PT Serif', serif;
+}
+
+body{
+    background: linear-gradient(30deg,var(--cinza-escuro),var(--cinza-claro));
+}
+
+main{
+        display:flex;
+        align-items: flex-start;
+        width: 950px;
+        height: 1150px;
+        margin: 5rem 18rem;
+        box-shadow: 20px 20px 50px 0 var(--cinza-escuro);
+ 
+}
+
+.left{
+    position: relative;
+    float: left;
+    
+    width: 450px;
+    height: 100%;
+
+    background: linear-gradient(30deg,var(--background-left),var(--background-left2));
+    
+}
+
+.info_pessoais-foto{
+    width: 11rem;
+    margin: 3em 6em 0 8em;
+
+    border-radius: 150px;
+}
+
+.info_pessoais-titulo{
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+
+}
+
+.divisor {
+    background: var(--background-subtitulo);
+    width: 270px;
+    height: 2px;
+    margin: 0.5em 4rem;
+  }
+
+.info_pessoais-idade{
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--montserrat);
+    margin: 0.5em 0.5em 1em 0.5em;
+}
+.subtitulo{
+    background-color: var(--background-subtitulo);
+    
+    padding: 0.3em 0;
+
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-family: var(--opensens);
+}
+.texto-left{
+    margin: 1.5em 0 1.5em 1em;
+
+    font-size: 20px;
+    font-family: var(--montserrat);
+}
+li{
+    padding-top: 0.3em;
+}
+
+.info_pessoais-perfil-pessoal{
+    padding-right: 1em;
+}
+
+ul.info_pessoais-softskills>li:before{
+    content: "🟊";
+}
+
+.linkedin{
+    position: absolute;
+    left: 3em;
+    bottom: 10em;
+    
+}
+.email{
+    position: absolute;
+    left: 7.5em;
+    bottom: 3em
+}
+.github{
+    position: absolute;
+    left: 11em;
+    bottom:10em
+}
+.whatsapp{
+    position: absolute;
+    left: 16em;
+    bottom: 3em
+}
+
+.mapa{
+    position: absolute;
+    left: 19em;
+    bottom:10em;
+}
+
+/* .mapa>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+} */
+.info_pessoais-icones{
+        display: inline-block;
+    
+        width: 50px;
+        height: 50px;
+}
+
+.right{
+    position: relative;
+    float: right;
+
+    width: 100%;
+    height: 100%;
+
+    background-color:var(--bacground-right) ;
+}
+.texto-right{
+    margin: 1em 1em;
+
+    font-size: 19px;
+    font-family: var(--montserrat);
+}
+.formacao-lista>li:before{
+    content: "🎓";
+}
+.cursos-lista>li:before{
+    content: "✷";
+}
+.cursos-lista>li{
+    padding-top:10px;
+}
+.hardskills-lista>li:before{
+    content: "✦";
+}
+.experiencia-profissional-lista>li:before{
+    content: "⁕";
+}
+
+
+@media screen and (max-width:480px){
+
+    body{
+        background: none;
+    }
+    main{
+        display: inline;
+
+        width: auto;
+        height: auto;
+        margin: 0 0;
+
+        box-shadow: none;        
+    }
+    .left{
+        float: none;
+        width: auto;
+    }
+    .info_pessoais-icones{
+        position: relative;
+    }
+
+    .linkedin{
+        top: 3em;
+        left: 2em;
+    }
+    .email{
+        top: 5em;
+        left: 5em;
+    }
+    .github{
+        bottom: 4em;
+        left: 9em;
+    }
+    .whatsapp{
+        bottom: 2em;
+        left:14em;
+    }
+    .mapa{
+        bottom: 8em;
+        left:17em;
+    }
+    }
+    .right{
+
+        float: none;
+        padding-bottom: 1em;
+    }
+/* @media screen and() {
+    
+} */
