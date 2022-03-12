@@ -21,7 +21,7 @@ main{
         display:flex;
         align-items: flex-start;
         width: 60rem;
-        height: 1150px;
+        height: 73rem;
         margin: 5rem 18rem;
         box-shadow: 20px 20px 50px 0 var(--cinza-escuro);
  
@@ -31,8 +31,8 @@ main{
     position: relative;
     float: left;
     
-    width: 450px;
-    height: 100%;
+    width: 60%;
+    height:100%;
 
     background: linear-gradient(30deg,var(--background-left),var(--background-left2));
     
@@ -94,6 +94,15 @@ ul.info_pessoais-softskills>li:before{
     content: "🟊";
 }
 
+.info_pessoais-icones{
+        display: inline-block;
+    
+        width: 55x;
+        height: 55px;
+
+        margin-bottom: 2rem;
+}
+
 .linkedin{
     position: absolute;
     left: 3em;
@@ -127,12 +136,6 @@ ul.info_pessoais-softskills>li:before{
     text-decoration: none;
     color: #000000;
 } */
-.info_pessoais-icones{
-        display: inline-block;
-    
-        width: 50px;
-        height: 50px;
-}
 
 .right{
     position: relative;
@@ -145,6 +148,7 @@ ul.info_pessoais-softskills>li:before{
 }
 .texto-right{
     margin: 1em 1em;
+    padding-bottom: 0.2rem;
 
     font-size: 19px;
     font-family: var(--montserrat);
