@@ -1,5 +1,5 @@
 # Currículo
 
 <p text-align ="center">
-  <img alt="curriculo" src=https://jessicadamasceno.github.io/curriculo/" width="100%">
+  <img alt="curriculo" url=https://jessicadamasceno.github.io/curriculo/" width="100%">
 </p>
