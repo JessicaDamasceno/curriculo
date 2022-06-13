@@ -192,12 +192,15 @@ ul.info_pessoais-softskills>li:before{
     }
 
     main{
-    }
-    main{
         position: relative;
         margin-top: 3rem;
         padding-bottom: 2rem;
         
+    }
+    .info_pessoais-icones:hover{
+        color: #0f1e09; 
+        opacity: 0.7;
+        font-size: 1.1rem;
     }
     .cursos-lista a:hover{
         color: #0f1e09; 
